@@ -15,34 +15,52 @@
 </head>
 <body>
   <main class="container">
-    <div class="card">
+    <div class="card hidden">
       <div class="containt-left">
       <h1 class="title">Stay updated!</h1>
       <p class="paragraph">Join 60,000+ product managers receiving monthly updates on:</p>
+
       <div class="info">
         <img src="assets/images/icon-list.svg" alt="icon-list">
         <p>Product discovery and building what matters</p>
       </div>
+
       <div class="info">
         <img src="assets/images/icon-list.svg" alt="icon-list">
         <p>Measuring to ensure updates are a success</p>
       </div>
+
       <div class="info">
         <img src="assets/images/icon-list.svg" alt="icon-list">
         <p> And much more!</p>
       </div>
+
       <div class="email">
         <p class="email-info"> Email address</p>
-        <input type="text" placeholder="email@company.com">
+        <span class="valid ativo">Valid email required</span>
+      <form action="">
+        <input id="input" type="email" placeholder="email@company.com">
       </div>
+  
       <button class="btn">Subscribe to monthly newsletter</button>
+     </form>
     </div>
+
     <div class="containt-right">
       <img src="assets/images/illustration-sign-up-desktop.svg" alt="img-sing-up">
     </div>
+    
+  </div>
+  
+  <div class="thank-you mostrar">
+    <img class="image-sucess" src="./assets/images/icon-success.svg" alt="Icon sucess">
+    <h2 class="thanks">Thanks for subscribing!</h2>
+    <p class="confirmation">A confirmation email has been sent do <span id="email-thanks"></span>.
+       Plase open it and click the button inside to confirm your subscription.</p>
+    <button class="dismiss">Dismiss message</button>
   </div>
   </main>
-
+<script src="./assets/js/index.js"></script>
 </body>
 
 </html>

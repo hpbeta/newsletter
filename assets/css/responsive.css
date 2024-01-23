@@ -38,6 +38,9 @@
         content: url(../images/illustration-sign-up-mobile.svg);
         
     }
-    
+    .container .card .containt-left span{
+        bottom: 124px;
+        right: 10px;
+    }
 
 }
